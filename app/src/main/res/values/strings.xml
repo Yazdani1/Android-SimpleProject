@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Android project</string>
+
+    <string name="title">Education Apss</string>
+
+    <string name="subtitle">Learn From here</string>
+
+    <string name="item1">Facebook</string>
+
+    <string name="item2">List View</string>
+
+    <string name="item3">Fragment</string>
+
+    <string name="item4">Contact us</string>
+
+    <string name="item5">About us</string>
+
+    <string name="item6">Rate us</string>
+
+
+    <string-array name="list_item">
+
+        <item>Canada</item>
+        <item>Banglades</item>
+        <item>India</item>
+        <item>Sydne</item>
+        <item>Arab</item>
+        <item>Canada</item>
+        <item>Banglades</item>
+        <item>India</item>
+        <item>Sydne</item>
+        <item>Arab</item>
+        <item>Canada</item>
+        <item>Banglades</item>
+        <item>India</item>
+        <item>Sydne</item>
+        <item>Arab</item>
+        <item>Canada</item>
+        <item>Banglades</item>
+        <item>India</item>
+        <item>Sydne</item>
+        <item>Arab</item>
+        <item>Canada</item>
+        <item>Banglades</item>
+        <item>India</item>
+        <item>Sydne</item>
+        <item>Arab</item>
+        <item>Canada</item>
+        <item>Banglades</item>
+        <item>India</item>
+        <item>Sydne</item>
+        <item>Arab</item>
+        <item>Canada</item>
+        <item>Banglades</item>
+        <item>India</item>
+        <item>Sydne</item>
+        <item>Arab</item>
+        <item>Canada</item>
+        <item>Banglades</item>
+        <item>India</item>
+        <item>Sydne</item>
+        <item>Arab</item>
+
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

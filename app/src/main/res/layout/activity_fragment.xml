@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="androidsqlite.com.androidproject.FragmentActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/fragment_toolbar"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_toolbar"
+        android:text="Messenger"
+        android:textColor="@color/white_color"
+        android:background="@color/back"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:padding="10dp"
+        android:onClick="method1"
+        android:id="@+id/messenger_btn"
+        android:layout_margin="15dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="method2"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_toolbar"
+        android:layout_toRightOf="@id/messenger_btn"
+        android:text="Active Friends"
+        android:layout_margin="15dp"
+        android:textColor="@color/white_color"
+        android:background="@color/back"
+        android:padding="10dp"
+        android:id="@+id/active_btn"
+        />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_xml"
+        android:name="androidsqlite.com.androidproject.BlankFragment"
+        android:layout_below="@id/messenger_btn"
+        />
+
+</RelativeLayout>

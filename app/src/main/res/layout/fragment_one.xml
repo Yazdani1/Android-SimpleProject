@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context="androidsqlite.com.androidproject.OneFragment">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frA_BTN"
+        android:text="Clicke Here"
+        android:background="@color/front"
+        android:textColor="@color/white_color"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+
+</RelativeLayout>
